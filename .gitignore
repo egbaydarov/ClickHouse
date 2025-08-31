@@ -9,6 +9,8 @@
 # auto generated files
 *.logrt
 
+.gdbinit
+/local
 /build
 /build_*
 /build-*
