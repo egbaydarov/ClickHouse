@@ -285,12 +285,6 @@ TRAP(tss_delete)
 #ifndef USE_MUSL
 /// These produce duplicate symbol errors when statically linking with musl.
 /// Maybe we can remove them from the musl fork.
-TRAP(getopt)
-TRAP(putenv)
-TRAP(setlogmask)
-TRAP(rand)
-TRAP(getmntent)
-TRAP(getlogin)
 #endif
 
 #endif

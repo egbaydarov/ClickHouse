@@ -11,6 +11,7 @@
 
 .gdbinit
 /local
+result
 /build
 /build_*
 /build-*
